@@ -7,11 +7,7 @@
  */
 import java.util.ArrayList;
 public class Backpack implements BackpackInterface {
-    // instance variables - replace the example below with your own
     private ArrayList<Item> backpack;
-    private String laptop = "Laptop";
-    private String binder = "Binder";
-    private String charger = "Charger";
 
     /**
      * Constructor for objects of class Backpack

@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Enemy here.
+ * Write a description of class SAT here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Enemy
+public class SAT extends Test
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Enemy
+     * Constructor for objects of class SAT
      */
-    public Enemy()
+    public SAT()
     {
         // initialise instance variables
         x = 0;

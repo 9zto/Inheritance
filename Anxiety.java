@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Enemy here.
+ * Write a description of class Anxiety here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Enemy
+public class Anxiety extends Enemy
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Enemy
+     * Constructor for objects of class Anxiety
      */
-    public Enemy()
+    public Anxiety()
     {
         // initialise instance variables
         x = 0;

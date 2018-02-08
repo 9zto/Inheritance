@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Enemy here.
+ * Write a description of class StressManagement here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Enemy
+public abstract class StressManagement implements WeaponInterface
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Enemy
+     * Constructor for objects of class StressManagement
      */
-    public Enemy()
+    public StressManagement()
     {
         // initialise instance variables
         x = 0;

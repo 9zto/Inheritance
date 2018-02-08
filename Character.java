@@ -5,30 +5,13 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Character
+public abstract class Character implements DefenseCommands, WeaponInterface
 {
-    // instance variables - replace the example below with your own
-    private int x;
     Feeling feel;
-
-    /**
-     * Constructor for objects of class Character
-     */
-    public Character()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    String name;
+    int age;
+    public Character(String name,int age){
+        this.name = name;
+        this.age = age;
     }
 }
