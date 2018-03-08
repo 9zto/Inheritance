@@ -8,7 +8,9 @@
 public abstract class Enemy
 {
     int dislikable;
-    public Enemy(int dislikable){
+    int strength;
+    public Enemy(int dislikable,int strength){
         this.dislikable = dislikable;
+        this.strength = strength;
     }
 }

@@ -8,8 +8,8 @@
 public class Test extends Enemy
 {
     int difficulty;
-    public Test(int difficulty, int dislikable){
-        super(dislikable);
+    public Test(int dislikable,int strength, int difficulty){
+        super(dislikable, strength);
         this.difficulty = difficulty;
     }
 }

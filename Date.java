@@ -11,6 +11,7 @@ public abstract class Date
     static int currentIndex = 0;
     static String date = days[currentIndex];
     
+    
     static int hour = 0;
     static int min = 0;
     
@@ -22,6 +23,12 @@ public abstract class Date
     }
     public static String getDay(){
      return date; 
+    }
+    public static int getHour(){
+     return hour; 
+    }
+    public static int getMin(){
+     return min; 
     }
     public static void hourLater(){
         hour++;

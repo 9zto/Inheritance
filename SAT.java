@@ -7,7 +7,7 @@
  */
 public class SAT extends Test
 {
-    public SAT(int difficulty, int dislikable){
-        super(difficulty, dislikable);
+    public SAT(int dislikable,int strength, int difficulty){
+        super(dislikable, strength, difficulty);
     }
 }

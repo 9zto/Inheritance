@@ -8,8 +8,8 @@
 public class Cha extends Enemy
 {
     boolean angry;
-    public Cha(int dislikable){
-        super(dislikable);
+    public Cha(){
+        super(100, 5);
         this.angry = true;
     }
     public void yell(){

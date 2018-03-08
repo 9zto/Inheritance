@@ -8,8 +8,8 @@
 public abstract class Sport extends Extracurricular
 {
     int difficulty;
-    public Sport(String name, int difficulty){
-        super(name);
+    public Sport(String name, String day, int time, int difficulty){
+        super(name, day, time);
         this.difficulty = difficulty;
     }
 }

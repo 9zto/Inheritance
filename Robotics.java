@@ -7,7 +7,14 @@
  */
 public class Robotics extends Club
 {
-    public Robotics(String day, String job, int studentNum, String name){
-        super(day, job, studentNum, name);
+    public Robotics(String day, String job, int studentNum, String name, int time){
+        super("Friday", "Vice-President", 40, "Robotics", 4);
+    }
+    public void meetDay(){
+        if(day == Date.getDay() && time == Date.getHour()){
+            System.out.println("You go to Robotics.");
+        }else{
+            System.out.println("You do not go to Robotics.");
+        }
     }
 }

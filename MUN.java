@@ -7,7 +7,14 @@
  */
 public class MUN extends Club
 {
-    public MUN(String day, String job, int studentNum, String name){
-        super(day, job, studentNum, name);
+    public MUN(String day, String job, int studentNum, String name, int time){
+        super("Tuesday", "Delegate", 50, "MUN", 8);
+    }
+    public void meetDay(){
+        if(day == Date.getDay() && time == Date.getHour()){
+            System.out.println("You go to MUN");
+        }else{
+            System.out.println("You do not go to MUN");
+        }
     }
 }

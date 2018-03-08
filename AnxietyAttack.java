@@ -7,7 +7,7 @@
  */
 public class AnxietyAttack extends Anxiety
 {
-    public AnxietyAttack(int dislikable, int strength){
-        super(dislikable, strength);
+    public AnxietyAttack(int dislikable, int strength, int power){
+        super(dislikable, strength, power);
     }
 }

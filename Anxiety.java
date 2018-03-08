@@ -7,9 +7,9 @@
  */
 public class Anxiety extends Enemy
 {
-    int strength;
-    public Anxiety(int dislikable, int strength){
-        super(dislikable);
-        this.strength = strength;
+    int power;
+    public Anxiety(int dislikable, int strength, int power){
+        super(dislikable,strength);
+        this.power = power;
     }
 }

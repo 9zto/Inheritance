@@ -7,15 +7,17 @@
  */
 public class Club extends Extracurricular
 {
-    String day;
     String job;
     int studentNum;
-    String time;
-    public Club(String day, String job, int studentNum, String name, String time){
-        super(name);
-        this.day = day;
+    public Club(String day, String job, int studentNum, String name, int time){
+        super(name, day, time);
         this.job = job;
         this.studentNum = studentNum;
-        this.time = time;
+    }public void meetDay(){
+        if(day == Date.getDay() && time == Date.getHour()){
+            System.out.println("You go to the club");
+        }else{
+            System.out.println("You do not go to the club");
+        }
     }
 }

@@ -8,7 +8,11 @@
 public abstract class Extracurricular
 {
     String name;
-    public Extracurricular(String name){
+    String day;
+    int time;
+    public Extracurricular(String name, String day, int time){
         this.name = name;
+        this.day = day;
+        this.time = time;
     }
 }

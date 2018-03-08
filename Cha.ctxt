@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Cha
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cha\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=dislikable
-comment1.target=Cha(int)
+comment1.params=
+comment1.target=Cha()
 comment2.params=
 comment2.target=void\ yell()
 numComments=3
