@@ -8,5 +8,7 @@
 public class Mother extends Character
 {
     // instance variables - replace the example below with your own
-    
+    public Mother(String name, int age){
+        super(name, age);
+    }
 }

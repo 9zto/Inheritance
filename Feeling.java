@@ -9,4 +9,5 @@ public class Feeling
 {
     // instance variables - replace the example below with your own
     private String state = "Happy";
+    
 }

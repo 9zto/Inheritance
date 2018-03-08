@@ -5,29 +5,20 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public abstract class Chicken extends Pet
+public class Chicken extends Pet
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Chicken
-     */
-    public Chicken()
-    {
-        // initialise instance variables
-        x = 0;
+    public Chicken(int playfullness){
+        super("Chicken", 1, "Chicken", playfullness);
+    }
+    public Chicken(){
+        this(4);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void pickUp(){
+        if(playfullness > 3){
+            System.out.println("You pick up the chicken.");
+        }else{
+            System.out.println("You don't pick up the chicken");
+        }
     }
 }
