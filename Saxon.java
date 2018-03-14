@@ -7,8 +7,8 @@
  */
 public class Saxon extends Dog
 {
-    public Saxon(String name, int age, String typeOfPet, int playfullness){
-        super(name,age,typeOfPet, playfullness);
+    public Saxon(int playfullness){
+        super("Saxon",4,"dog", playfullness);
         playfullness = 5;
     }
     public void bark(){

@@ -7,7 +7,14 @@
  */
 public class Kitty extends Cat
 {
-    public Kitty(String name, int age, String typeOfPet, int playfullness){
-        super("Kitty", 10, "Cat", 1);
+    public Kitty(int playfullness){
+        super("Kitty", 10, "Cat", playfullness);
+    }
+    public void happyCat(){
+        if(playfullness > 3){
+            System.out.println("Kitty permits you to pet her.");
+        } else{
+            System.out.println("Kitty will scratch out your eyes if you touch her.");
+        }
     }
 }

@@ -7,5 +7,8 @@
  */
 public abstract class TestPreparedness implements WeaponInterface
 {
-    
+    int testPreparedness;
+    public TestPreparedness(int testPreparedness){
+        this.testPreparedness = testPreparedness;
+    }
 }
